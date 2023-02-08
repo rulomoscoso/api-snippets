@@ -16,7 +16,7 @@ def api_root(request, format=None):
     })
     
 
-class SnippetList(viewsets.ModelViewSet):
+class SnippetViewSet(viewsets.ModelViewSet):
     """
     This viewset automatically provides `list`, `create`, `retrieve`,
     `update` and `destroy` actions.
